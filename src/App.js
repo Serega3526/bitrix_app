@@ -1,7 +1,8 @@
 import React from 'react';
+import { AddTask } from './AddTask';
 
 const App = () => {
-  return <div>1234</div>;
+  return <div><h1>Добавление смарта после нажатия кнопки</h1><AddTask/></div>;
 };
 
 export default App;
